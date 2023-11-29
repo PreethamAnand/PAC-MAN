@@ -1,0 +1,92 @@
+.cen {
+    color: lightgreen;
+    font-family: italic;
+    font-weight: 30px;
+    text-align: center;
+    background-color: light greenyellow
+}
+
+#fot {
+    color: lightyellow;
+    font-weight: initial;
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#par {
+    color: skyblue;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.body {
+    background-image: 'pac_01.png';
+}
+
+#link {
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 9px 9px 9px 9px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+#fir {
+    text-align: center;
+    background-color: orange;
+    border-radius: 20% 20% 20% 20%;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('pac_01.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#game {
+    text-align: center;
+    color: black;
+    background-color: orange;
+    border-radius: 50% 50% 50% 50%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('pac_01.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 620px
+        /* Change the width of the box*/
+    ;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
